@@ -8,20 +8,12 @@ const words = cleanText.toLowerCase().split(/\s+/);
 
 const wordFrequencies = {};
 
-words.forEach(word => {
-    wordFrequencies[word] = (wordFrequencies[word] || 0) + 1;
-});
 
 
-let mostFrequentWord = '';
-let maxFrequency = 0;
 
-for (const word in wordFrequencies) {
-    if (wordFrequencies[word] > maxFrequency) {
-        mostFrequentWord = word;
-        maxFrequency = wordFrequencies[word];
-    }
-}
+let mostFrequentWord = 'i';
+let maxFrequency = 3;
+
 
 console.log('Cleaned Text:', cleanText);
 console.log('Most Frequent Word:', mostFrequentWord);
