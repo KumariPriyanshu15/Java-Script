@@ -1,8 +1,5 @@
 
-let number = parseFloat('9.8');
-if (number !== 10) {
-    
-    number = 10;
-}
+let num = 9.8
 
-console.log(number); 
+let numInt = parseInt(num)
+console.log(numInt)

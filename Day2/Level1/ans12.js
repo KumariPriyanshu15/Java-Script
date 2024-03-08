@@ -1,4 +1,4 @@
-var challenge = '30 Days Of JavaScript';
-var updatedChallenge = challenge.replace('JavaScript', 'Python');
+let string = '30 Days Of JavaScript'
 
-console.log(updatedChallenge);
+
+console.log(string.replace('JavaScript', 'Python'))

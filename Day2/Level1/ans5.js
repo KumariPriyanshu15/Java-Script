@@ -1,3 +1,3 @@
-var challenge = 'Kumari Priyanshu';
-var lowercaseChallenge = challenge.toLowerCase();
-console.log(lowercaseChallenge);
+var string= 'Kumari Priyanshu';
+
+console.log(string.toLowerCase())
