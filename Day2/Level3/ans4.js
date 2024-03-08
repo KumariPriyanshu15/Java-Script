@@ -6,9 +6,9 @@ const numbers = text.match(/\d+/g);
 let totalAnnualIncome = 0;
 
 if (numbers) {
-    numbers.forEach(number => {
-        totalAnnualIncome += parseInt(number, 10);
-    });
+   numbers.forEach(number => {
+      totalAnnualIncome += parseInt(number, 10);
+});
 }
-
+ 
 console.log('Total Annual Income:', totalAnnualIncome, 'euro');
