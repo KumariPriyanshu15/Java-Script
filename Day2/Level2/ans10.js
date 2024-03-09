@@ -1,5 +1,3 @@
-const myString = 'JavaScript';
-const randomIndex = Math.floor(Math.random() * myString.length);
-const randomCharacter = myString.charAt(randomIndex);
-
-console.log(`Random character at index ${randomIndex}: ${randomCharacter}`);
+const string = ' JavaScript ';
+const random4=Math.floor(Math.random()*10);
+console.log(string[random4]);
