@@ -1,27 +1,4 @@
-const countries = [
-    'Albania',
-    'Bolivia',
-    'Canada',
-    'Denmark',
-    'Ethiopia',
-    'Finland',
-    'Germany',
-    'Hungary',
-    'Ireland',
-    'Japan',
-    'Kenya'
-  ];
-  
-  const webTechs = [
-    'HTML',
-    'CSS',
-    'JavaScript',
-    'React',
-    'Redux',
-    'Node',
-    'MongoDB'
-  ];
-  
-  console.log("Number of countries:", countries.length);
-  console.log("Number of webTechs:", webTechs.length);
-  
+
+
+let array = [1,5,7,4,8,12,6,9,2,3];
+console.log(array.length)
