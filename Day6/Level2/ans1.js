@@ -1,3 +1,4 @@
+
 function generateRandomId(length) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let id = '';
@@ -8,4 +9,5 @@ function generateRandomId(length) {
 }
 
 
-console.log(generateRandomId(6)); 
+console.log(generateRandomId(12)); 
+console.log(generateRandomId(24)); 
