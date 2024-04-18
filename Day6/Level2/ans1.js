@@ -1,13 +1,13 @@
 
 function generateRandomId(length) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    let id = '';
+    let result = '';
+    const charactersLength = characters.length;
     for (let i = 0; i < length; i++) {
-        id += characters.charAt(Math.floor(Math.random() * characters.length));
+      result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
-    return id;
-}
-
-
-console.log(generateRandomId(12)); 
-console.log(generateRandomId(24)); 
+    return result;
+  }
+  const leng = 8;
+  const randomId = generateRandomId(leng);
+  console.log(randomId);
